@@ -6,10 +6,47 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		43F06F9B16DBE8110076C671 /* draw.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = draw.js; sourceTree = "<group>"; };
+		43FC2D2C16DE99FE001DF6E6 /* variables.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = variables.js; sourceTree = "<group>"; };
+		EE23FF0116D0219600DCAAF1 /* getData.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = getData.php; sourceTree = "<group>"; };
+		EE23FF0916D4BBF000DCAAF1 /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		EE38431416DEDC2A00F4921E /* nodes_subset.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = nodes_subset.csv; sourceTree = "<group>"; };
+		EE38431516DEDC2A00F4921E /* nodes_subset_collabs.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = nodes_subset_collabs.csv; sourceTree = "<group>"; };
+		EE38431716DEDC2A00F4921E /* nodes_subset_publications.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = nodes_subset_publications.csv; sourceTree = "<group>"; };
+		EE38431D16E0075800F4921E /* nodes_subset_comments.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = nodes_subset_comments.csv; sourceTree = "<group>"; };
+		EE38432016E01AE200F4921E /* nodes_subset_article.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = nodes_subset_article.csv; sourceTree = "<group>"; };
+		EE38432116E02CCC00F4921E /* clear.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = clear.js; sourceTree = "<group>"; };
+		EE38432216E0681900F4921E /* output.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.csv; sourceTree = "<group>"; };
+		EE47B41F16C343590018440F /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		EE47B42016C343600018440F /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
+		EE38431316DEDC2A00F4921E /* newNodes */ = {
+			isa = PBXGroup;
+			children = (
+				EE38432016E01AE200F4921E /* nodes_subset_article.csv */,
+				EE38431416DEDC2A00F4921E /* nodes_subset.csv */,
+				EE38431516DEDC2A00F4921E /* nodes_subset_collabs.csv */,
+				EE38432216E0681900F4921E /* output.csv */,
+				EE38431716DEDC2A00F4921E /* nodes_subset_publications.csv */,
+				EE38431D16E0075800F4921E /* nodes_subset_comments.csv */,
+			);
+			path = newNodes;
+			sourceTree = "<group>";
+		};
 		EE47B41816C3431F0018440F = {
 			isa = PBXGroup;
 			children = (
+				EE38431316DEDC2A00F4921E /* newNodes */,
+				EE47B41F16C343590018440F /* main.js */,
+				43FC2D2C16DE99FE001DF6E6 /* variables.js */,
+				43F06F9B16DBE8110076C671 /* draw.js */,
+				EE38432116E02CCC00F4921E /* clear.js */,
+				EE23FF0116D0219600DCAAF1 /* getData.php */,
+				EE47B42016C343600018440F /* main.html */,
+				EE23FF0916D4BBF000DCAAF1 /* main.css */,
 			);
 			sourceTree = "<group>";
 		};

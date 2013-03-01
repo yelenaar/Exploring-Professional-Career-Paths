@@ -1,0 +1,64 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10px;
+  fill:gray;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: silver;
+  shape-rendering: crispEdges;
+}
+
+.attk{
+  fill: lightsteelblue;
+  stroke:none;
+}
+
+.brush .extent{
+   stroke: #fff;
+   fill-opacity: 0.2;
+   shape-rendering:crispEdges;
+}
+
+#Name{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  fill: black;
+}
+
+.legend{
+   stroke:gray;
+   stroke-width:2;
+}
+
+.grid{
+   fill:silver;
+   stroke:silver;
+   opacity: 0.5;
+}
+
+.legendText{
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 10px;   
+   fill: gray;
+}
+
+.numbers{
+   fill:gray;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 10px;
+}
+
+.psymbol, .csymbol{
+   fill:white;
+   opacity:0.6;
+}
+
+.yearlyNodes{
+   fill: silver;
+   stroke: gray;
+   stroke-width: 1px;
+}
